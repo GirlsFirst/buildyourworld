@@ -1,0 +1,82 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+.navbar-brand,
+.navbar-nav div {
+     font-family: 'VT323';
+     font-size: 20px;
+     text-align: center;
+     /* padding-left: 280px;
+     padding-right: 280px; */
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar{
+    background-color: transparent;
+    /* padding-left: 440px;
+    padding-right: 440px; */
+}
+
+.navbar-nav a {
+  font-family: 'VT323';
+  font-size: 20px;
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('space.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+p {
+  color: white;
+   font-family: 'VT323';
+   font-size: 22px;
+   text-align: center;
+}
+
+li {
+  color: white;
+  font-family: 'VT323';
+  font-size: 22px;
+  text-align: center;
+}
+
+#facts {
+  text-align: center;
+  /* padding-left: 250px;
+  padding-right: 250px; */
+}
+
+/* #datapic { */
+  /* display: block; */
+  /* padding-left: 100px;
+  padding-right: 250px; */
+  /* width: 50%; */
+/* } */
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
