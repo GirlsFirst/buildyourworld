@@ -1,0 +1,120 @@
+@media (min-width: 1200px){ 
+#wrap { width: 1000px; }
+.blog-entry { width:310px;}
+#navigation .sf-menu a { font-size: 1.53em;}
+}
+@media only screen and (max-width:959px) {
+.adg { padding:0; float:none; text-align:center; clear:both;}
+#navigation ul{display:block;}
+#navigation li {display:inline;}
+#navigation a {display:inline-block; }
+#navigation .sf-menu li {float: none;}
+.sf-menu li {float: none;}
+#toplink{display:none !important;}
+#logo{text-align:center;}  
+#logo img{display:inline-block;}
+#logo a{display:inline-block;float:none;}
+#navigation{text-align:center; font-size:0.8em ; padding: 0 0 ; height: auto;width:100%;position:inherit;top:auto;left:auto;right:auto;margin:0;bbackground:#e73420 url(//fontmeme.com/wp-content/themes/test/images/responsive-nav.png) right center no-repeat;}
+#navigation .selector{width:100%;color:#fff;font-weight:bold;line-height:70px;text-indent:40px;}
+#navigation .selector{height:50px;width:100%;display:-moz-inline-box;display:inline-block;vertical-align:middle;zoom:1;*display:inline;cursor:pointer !important;}#navigation .selector:hover{opacity:1;-moz-opacity:1;-webkit-opacity:1;}
+#navigation .selector select:focus{outline:0;}
+#navigation .selector span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+#navigation .selector select{position:absolute;top:0px;left:0;height:70px;background:none;width:100%;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:500;color:#666 !important;cursor:pointer;}
+#navigation .selector{margin:0;padding:0;border:none;}
+#navigation .selector option{background:#000;-webkit-appearance:none;padding:10px 40px;border:none;border-bottom:1px solid #222;}
+#navigation .selector{display:inline-block;}
+.searchf {float:none; padding: 0;}
+#social {display:none;}
+.ssform {float:none;}
+#fullsize { display: none;}
+#epreview {display:none !important;}
+#cat-heading a.expand {display:none;}
+a#expand {display:inline-block; }
+.fontTopCategories { display:none;}
+#cat-heading a { width:30%;}
+.gimage {min-height:0;}
+}
+@media only screen and (min-width:768px) and (max-width:959px){
+#wrap {width:100%;padding: 0 10px; margin:0;}
+#post{width:430px !important;}
+#sidebar{width:190px !important;}.sidebar-bg{background-image:url(//fontmeme.com/wp-content/themes/test/images/sidebar-bg-tablet.png) !important;} .blog-isotope .blog-entry{width:45%; margin-right:10px;}
+.single .blog-entry-thumbnaill {
+max-height: inherit;
+min-height: inherit;}
+.single .blog-isotope, .single .blog-entry{width:100%;} .entry-textt {text-align: left;}
+#author-bio{width:300px;}
+.single-post .meta li{display:block;}
+.children li.depth-2,.children li.depth-3,.children li.depth-4,.children li.depth-5,.children li.depth-6,.children li.depth-7,.children li.depth-8,.children li.depth-9,.children li.depth-10{margin:0;}
+.search-entry-text{width:240px;}
+.footer-box{float:left;width:100%;margin-right:20px;}
+#sidebar h4, .shead {background:none;}
+}
+@media only screen and (max-width:767px){
+.isotope-item {border: 0px;}
+.single .blog-entry-thumbnaill {
+max-height: inherit;
+min-height: inherit;}
+#header-social {display:none;}
+#wrap {width:100%;padding: 0 3px; margin:0;} #post{width:100% !important;}#sidebar{width:100% !important;}.footer-box{width:100%;}
+.container {padding: 10px 8px;}
+.tagcloud a {width:95%; padding: 5px;}
+#navigation .sf-menu a {padding:0 3px;}
+#navigation .sf-menu li {float: left; width:33%;}
+#navigation .sf-menu a {font-size: 1.73em;}
+#logo img {max-width: 120px; margin-top:0;}
+.entry blockquote{margin-left:0;margin-right:0;}.sidebar-bg{background-image:none !important;margin-bottom:0;}
+#sidebar{width:100%;background:#f9f9f9;margin:0px;padding:3px;border-top:1px solid #ddd;}
+#error-page-text{font-size:14px;}.search-entry-image{float:none;margin-bottom:25px;}.search-entry-text{float:none;width:100%;}.blog-isotope{margin-right:0;}
+.blog-isotope .blog-entry{width:45%;margin-right:4%;}.single-post .meta li{display:block;}
+.single .blog-isotope, .single .blog-entry{width:100%;} .entry-textt {text-align: left;}
+.children{margin:30px 0 0;}.children li.depth-2,.children li.depth-3,.children li.depth-4,.children li.depth-5,.children li.depth-6,.children li.depth-7,.children li.depth-8,.children li.depth-9,.children li.depth-10{margin:0;}
+.symple-one-half,.symple-one-third,.symple-two-third,.symple-three-fourth,.symple-one-fourth,.symple-one-fifth,.symple-two-fifth,.symple-three-fifth,.symple-four-fifth,.symple-one-sixth,.symple-five-sixth{width:100%;float:none;margin-right:0;margin-bottom:20px;}
+.symple-pricing-table > div{margin-bottom:25px;}
+.symple-box,.symple-box.left,.symple-box.right{float:none;width:100% !important;}
+.colorpicker {left:10% !important;}
+#sidebar h4, .shead {background:none;}
+.wp-tag-cloud {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+} 
+@media only screen and (min-width:480px) and (max-width:767px){
+.container {padding: 10px 8px;}
+#page-heading {padding:10px 0px;}
+.tagcloud a {width:95%; padding: 5px;}
+#navigation .sf-menu a {padding:0 3px;}
+#navigation .sf-menu li {float: left; width:33%;}
+#logo img {max-width: 120px; margin-top:0;}
+#navigation .sf-menu a {font-size: 1.73em;}
+#wrap {width:100%;padding: 0 3px; margin:0;}
+.blog-isotope .blog-entry{width:45%;}
+.single .blog-isotope, .single .blog-entry {width:100%;} .entry-textt {text-align: left;}
+.colorpicker {left:10% !important;}
+}
+@media only screen and (max-width:479px){
+#page-heading {padding:10px 0px;}
+#wrap {width:100%; padding:0 3px; margin:0;}
+#navigation .sf-menu a {padding:0 3px;}
+#navigation .sf-menu li {float: left; width:33%;}
+#sidebar {margin:0; padding:0;}
+.tagcloud a {width:95%; padding: 5px;}
+#logo img {max-width: 120px; margin-top:0;}
+.adover { margin:0 -25px;}
+.container {padding: 10px 8px;}
+#prev, #next, #jia, #jian, #preveff, #nexteff {padding-left:15px; font-size:20px;}
+#effect { }
+.smallFonts .ddlabel {display:none;}
+#navigation .sf-menu a {font-size: 1.23em;}
+.blog-isotope .blog-entry{width:100%;}
+th, td {display:block; width:100% !important; height:auto !important;}
+.colorpicker {left:10% !important;}
+.wp-tag-cloud {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+}
+@media only screen and (max-width:319px){
+#navigation .sf-menu a {font-size: 12px;}
+#navigation .sf-menu a {width:98%;border:1px solid #eaeaea;}
+#navigation .sf-menu li { width:98%; clear:both;}
+}

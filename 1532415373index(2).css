@@ -1,0 +1,261 @@
+.borderRadius{-moz-border-radius:5px; border-radius:5px; }
+.borderRadiusTp{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+.borderRadiusBtm{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;}
+.ddcommon {position:relative;display:-moz-inline-stack; zoom:1; display:inline-block; *display:inline; cursor:default;}
+.ddcommon ul{padding:0;margin:0;}
+.ddcommon ul li{list-style-type:none;}
+.borderRadiusTp ul li:last-child{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;border-bottom:0 none #c3c3c3; }
+.borderRadiusBtm ul li:first-child{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0 ;border-bottom:1 solid #c3c3c3; }
+.ddcommon .disabled img, .ddcommon .disabled span, .ddcommon.disabledAll{
+opacity: .5; -ms-filter:"alpha(opacity=50)"; filter:alpha(opacity=50); -khtml-opacity:.5; -moz-opacity:.5; color:#999999;
+}
+.ddcommon .clear{clear:both}
+.ddcommon .shadow{-moz-box-shadow:5px 5px 5px -5px #888888;-webkit-box-shadow:5px 5px 5px -5px #888888;box-shadow: 5px 5px 5px -5px #888888;}
+.ddcommon input.text{color:#7e7e7e;padding:0 0 0 0; position:absolute; background:#fff; display:block; width:98%; height:98%; left:2px; top:0; border:none;}
+.ddOutOfVision{position:relative; display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline;}
+.borderRadius .shadow{-moz-box-shadow:5px 5px 5px -5px #888888;-webkit-box-shadow:5px 5px 5px -5px #888888;box-shadow: 5px 5px 5px -5px #888888;}
+.borderRadiusBtm .shadow{-moz-box-shadow:-5px -5px 5px -5px #888888;-webkit-box-shadow:-5px -5px 5px -5px #888888;box-shadow: -5px -5px 5px -5px #888888}
+.borderRadiusTp .border, .borderRadius .border{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;}
+.borderRadiusBtm .border{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+img.fnone{float:none !important}
+.ddcommon .divider{width:0; height:100%; position:absolute;}
+.ddcommon .ddArrow{display:inline-block; position:absolute; top:50%; right:4px;}
+.ddcommon .ddArrow:hover{background-position:0 100%;}
+.ddcommon .ddTitle{padding:0; position:relative; display:inline-block; width:100%}
+.ddcommon .ddTitle .ddTitleText{display:block;}
+.ddcommon .ddTitle .ddTitleText .ddTitleText{padding:0;}
+.ddcommon .ddTitle .description{display:block;}
+.ddcommon .ddTitle .ddTitleText img{position:relative; vertical-align:middle; float:left}
+.ddcommon .ddChild{position:absolute;display:none;width:100%;overflow-y:auto; overflow-x:hidden; zoom:1; z-index:9999}
+.ddcommon .ddChild li{clear:both;}
+.ddcommon .ddChild li .description{display:block;}
+.ddcommon .ddChild li img{border:0 none; position:relative;vertical-align:middle;float:left}
+.ddcommon .ddChild li.optgroup{padding:0;}
+.ddcommon .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.ddcommon .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.ddcommon .noBorderTop{border-top:none 0  !important; padding:0; margin:0;} .dd{border:1px solid #ddd;}
+.dd .divider{border-left:1px solid #c3c3c3; border-right:1px solid #fff;; right:24px;}
+.dd .ddArrow{width:16px;height:16px; margin-top:-8px; background:url(//fontmeme.com/global/ddi/dd_arrow.gif) no-repeat;}
+.dd .ddArrow:hover{background-position:0 100%;}
+.dd .ddTitle{color:#000;background:#e2e2e4 url(//fontmeme.com/images/msdropdown/skin1/title-bg.gif) repeat-x left top;}
+.dd .ddTitle .ddTitleText{padding:5px 20px 5px 5px;}
+.dd .ddTitle .ddTitleText .ddTitleText{padding:0;}
+.dd .ddTitle .description{font-size:12px; color:#666}
+.dd .ddTitle .ddTitleText img{padding-right:5px;}
+.dd .ddChild{border:1px solid #c3c3c3; background-color:#fff; left:-1px;}
+.dd .ddChild li{padding:5px; background-color:#fff; border-bottom:1px solid #c3c3c3;}
+.dd .ddChild li .description{color:#666;}
+.dd .ddChild li .ddlabel{color:#666;}
+.dd .ddChild li.hover{background-color:#f2f2f2}
+.dd .ddChild li img{padding:0 6px 0 0;}
+.dd .ddChild li.optgroup{padding:0;}
+.dd .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.dd .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.dd .ddChild li.selected{background-color:#d5d5d5; color:#000;} .ddlabel {float:right; padding-right:10px;color:#666;}
+.dd .divider {display:none;}
+.dd .ddTitle {background:none;}
+.borderRadius {border-radius:0;}
+.ddcommon .ddTitle {padding-top:5px; display: block !important; }
+#post li {list-style-type:none;}
+.smallEffs  .optgroup, .smallEffs .NoEffect, .smallEffs .None { background:none !important;} 
+#textPreviewTextEffect_child, #effect_child {top:0 !important; height:260px !important;}
+input[type="text"] {height:47px;}
+.gradientred, .gradientgray, .gradientgray2 {padding:0.9em; font-size:15px;}
+#span1 {padding:0.9em !important;}  .smallEffs li, .smallEffs .ddTitleText{ background-image:url(//fontmeme.com/global/ddi/sprites180720.png);
+background-repeat:no-repeat;
+padding-left:7px !important;
+height:30px;
+}
+.smallFonts li, .smallFonts .ddTitleText{ padding-left:7px !important;
+height:30px; 
+} .smallEffs .default_b { background-position: 0 0;} 
+.smallEffs .default_a { background-position: 0 -45px;} 
+.smallEffs .Gradient-Red-H { background-position: 0 -90px;} 
+.smallEffs .Gradient-Red-R { background-position: 0 -135px;} 
+.smallEffs .Gradient-Red-V { background-position: 0 -180px;} 
+.smallEffs .Gradient-Silver-H { background-position: 0 -225px;} 
+.smallEffs .Gradient-Silver-R { background-position: 0 -270px;} 
+.smallEffs .Gradient-Silver-V { background-position: 0 -315px;} 
+.smallEffs .Gradient-Teal-H { background-position: 0 -360px;} 
+.smallEffs .Gradient-Teal-R { background-position: 0 -405px;} 
+.smallEffs .Gradient-Teal-V { background-position: 0 -450px;} 
+.smallEffs .Gradient-White-H { background-position: 0 -495px;} 
+.smallEffs .Gradient-White-R { background-position: 0 -540px;} 
+.smallEffs .Gradient-White-V { background-position: 0 -585px;} 
+.smallEffs .Gradient-Yellow-H { background-position: 0 -630px;} 
+.smallEffs .Gradient-Yellow-R { background-position: 0 -675px;} 
+.smallEffs .Gradient-Yellow-V { background-position: 0 -720px;} 
+.smallEffs .Outline-A { background-position: 0 -765px;} 
+.smallEffs .Outline-B { background-position: 0 -810px;} 
+.smallEffs .Outline-Transparent { background-position: 0 -855px;} 
+.smallEffs .Shadow-Black-L { background-position: 0 -900px;} 
+.smallEffs .Shadow-Black-S { background-position: 0 -945px;} 
+.smallEffs .Shadow-Blue-L { background-position: 0 -990px;} 
+.smallEffs .Shadow-Blue-S { background-position: 0 -1035px;} 
+.smallEffs .Shadow-Gold-L { background-position: 0 -1080px;} 
+.smallEffs .Shadow-Gold-S { background-position: 0 -1125px;} 
+.smallEffs .Shadow-Green-L { background-position: 0 -1170px;} 
+.smallEffs .Shadow-Green-S { background-position: 0 -1215px;} 
+.smallEffs .Shadow-Orange-L { background-position: 0 -1260px;} 
+.smallEffs .Shadow-Orange-S { background-position: 0 -1305px;} 
+.smallEffs .Shadow-Pink-L { background-position: 0 -1350px;} 
+.smallEffs .Shadow-Pink-S { background-position: 0 -1395px;} 
+.smallEffs .Shadow-Purple-L { background-position: 0 -1440px;} 
+.smallEffs .Shadow-Purple-S { background-position: 0 -1485px;} 
+.smallEffs .Shadow-Red-L { background-position: 0 -1530px;} 
+.smallEffs .Shadow-Red-S { background-position: 0 -1575px;} 
+.smallEffs .Shadow-Silver-L { background-position: 0 -1620px;} 
+.smallEffs .Shadow-Silver-S { background-position: 0 -1665px;} 
+.smallEffs .Shadow-Teal-L { background-position: 0 -1710px;} 
+.smallEffs .Shadow-Teal-S { background-position: 0 -1755px;} 
+.smallEffs .Shadow-White-L { background-position: 0 -1800px;} 
+.smallEffs .Shadow-White-S { background-position: 0 -1845px;} 
+.smallEffs .Shadow-Yellow-L { background-position: 0 -1890px;} 
+.smallEffs .Shadow-Yellow-S { background-position: 0 -1935px;} 
+.smallEffs .Style-Apple { background-position: 0 -1980px;} 
+.smallEffs .Style-Argentina { background-position: 0 -2025px;} 
+.smallEffs .Style-Backwoods { background-position: 0 -2070px;} 
+.smallEffs .Style-Baseball { background-position: 0 -2115px;} 
+.smallEffs .Style-BevelG { background-position: 0 -2160px;} 
+.smallEffs .Style-BevelS { background-position: 0 -2205px;} 
+.smallEffs .Style-Birthday { background-position: 0 -2250px; } 
+.smallEffs .Style-BlocksA { background-position: 0 -2295px;} 
+.smallEffs .Style-BlocksB { background-position: 0 -2340px;} 
+.smallEffs .Style-BoxLogo { background-position: 0 -2385px;} 
+.smallEffs .Style-BTTF { background-position: 0 -2430px;} 
+.smallEffs .Style-Chevron { background-position: 0 -2475px; } 
+.smallEffs .Style-Chocolate { background-position: 0 -2520px;} 
+.smallEffs .Style-Columbia { background-position: 0 -2565px;} 
+.smallEffs .Style-Comic { background-position: 0 -2610px; } 
+.smallEffs .Style-ConcaveB { background-position: 0 -2655px;} 
+.smallEffs .Style-ConcaveBB { background-position: 0 -2700px;} 
+.smallEffs .Style-ConcaveT { background-position: 0 -2745px;} 
+.smallEffs .Style-ConcaveTT { background-position: 0 -2790px;} 
+.smallEffs .Style-Condense { background-position: 0 -2835px;} 
+.smallEffs .Style-Cuphead { background-position: 0 -2880px;} 
+.smallEffs .Style-DragonB { background-position: 0 -2925px;} 
+.smallEffs .Style-Elegance { background-position: 0 -2970px;} 
+.smallEffs .Style-France { background-position: 0 -3015px;} 
+.smallEffs .Style-Frozen { background-position: 0 -3060px;} 
+.smallEffs .Style-GeoDash { background-position: 0 -3105px;} 
+.smallEffs .Style-Germany { background-position: 0 -3150px;} 
+.smallEffs .Style-GlitchA { background-position: 0 -3195px;} 
+.smallEffs .Style-GlitchB { background-position: 0 -3240px;} 
+.smallEffs .Style-Indiana-Jones { background-position: 0 -3285px;} 
+.smallEffs .Style-Ireland { background-position: 0 -3330px;} 
+.smallEffs .Style-Italy { background-position: 0 -3375px;} 
+.smallEffs .Style-JurassicPark { background-position: 0 -3420px;} 
+.smallEffs .Style-KeepCalm { background-position: 0 -3465px;} 
+.smallEffs .Style-KISS { background-position: 0 -3510px; } 
+.smallEffs .Style-Mango { background-position: 0 -3555px;} 
+.smallEffs .Style-Milky { background-position: 0 -3600px;} 
+.smallEffs .Style-Mirrored { background-position: 0 -3645px;} 
+.smallEffs .Style-NameTag-Blue { background-position: 0 -3690px;} 
+.smallEffs .Style-NameTag-Red { background-position: 0 -3735px;} 
+.smallEffs .Style-Neon { background-position: 0 -3780px;} 
+.smallEffs .Style-NeonOutline { background-position: 0 -3825px;} 
+.smallEffs .Style-Oblique { background-position: 0 -3870px;} 
+.smallEffs .Style-ObliqueR { background-position: 0 -3915px;} 
+.smallEffs .Style-OutlineGB { background-position: 0 -3960px;} 
+.smallEffs .Style-OutlineUltra { background-position: 0 -4005px;} 
+.smallEffs .Style-Pokemon { background-position: 0 -4050px;} 
+.smallEffs .Style-OutlineYB { background-position: 0 -4095px;} 
+.smallEffs .Style-Party { background-position: 0 -4140px; } 
+.smallEffs .Style-PAWP { background-position: 0 -4185px;} 
+.smallEffs .Style-PolkaDot { background-position: 0 -4230px; } 
+.smallEffs .Style-Popstar { background-position: 0 -4275px;} 
+.smallEffs .Style-Pressed { background-position: 0 -4320px;} 
+.smallEffs .Style-Rainbow { background-position: 0 -4365px;} 
+.smallEffs .Style-RobT { background-position: 0 -4410px;} 
+.smallEffs .Style-Romania { background-position: 0 -4455px;} 
+.smallEffs .Style-Russia { background-position: 0 -4500px;} 
+.smallEffs .Style-Sensual { background-position: 0 -4545px; } 
+.smallEffs .Style-Sesame { background-position: 0 -4590px;} 
+.smallEffs .Style-Slant { background-position: 0 -4635px;} 
+.smallEffs .Style-SmashB { background-position: 0 -4680px;} 
+.smallEffs .Style-Spain { background-position: 0 -4725px;} 
+.smallEffs .Style-Sports { background-position: 0 -4770px;} 
+.smallEffs .Style-StackedLines { background-position: 0 -4815px;} 
+.smallEffs .Style-Stamp { background-position: 0 -4860px;} 
+.smallEffs .Style-StarStripes { background-position: 0 -4905px;} 
+.smallEffs .Style-StarW { background-position: 0 -4950px;} 
+.smallEffs .Style-Steel { background-position: 0 -4995px;} 
+.smallEffs .Style-StickyNotes-A { background-position: 0 -5040px;} 
+.smallEffs .Style-StickyNotes-B { background-position: 0 -5085px;} 
+.smallEffs .Style-StickyNotes-C { background-position: 0 -5130px;} 
+.smallEffs .Style-StickyNotes-D { background-position: 0 -5175px;} 
+.smallEffs .Style-StraightOutta { background-position: 0 -5220px;} 
+.smallEffs .Style-ToyStory { background-position: 0 -5265px;} 
+.smallEffs .Style-Twitch { background-position: 0 -5310px;} 
+.smallEffs .Style-Twitter { background-position: 0 -5355px;} 
+.smallEffs .Style-Undertale { background-position: 0 -5400px;} 
+.smallEffs .Style-UPUP { background-position: 0 -5445px;} 
+.smallEffs .Style-Wavy { background-position: 0 -5490px;} 
+.smallEffs .Style-Wood { background-position: 0 -5535px;} 
+.smallEffs .Texture-Army { background-position: 0 -5580px; } 
+.smallEffs .Texture-Beer { background-position: 0 -5625px; } 
+.smallEffs .Texture-Bricks { background-position: 0 -5670px; } 
+.smallEffs .Texture-Chocolate { background-position: 0 -5715px; } 
+.smallEffs .Texture-Cloth { background-position: 0 -5760px; } 
+.smallEffs .Texture-Cloud { background-position: 0 -5805px; } 
+.smallEffs .Texture-Diamond { background-position: 0 -5850px; } 
+.smallEffs .Texture-Electric { background-position: 0 -5895px; } 
+.smallEffs .Texture-Fire { background-position: 0 -5940px; } 
+.smallEffs .Texture-Graffiti { background-position: 0 -5985px; } 
+.smallEffs .Texture-Granite { background-position: 0 -6030px; } 
+.smallEffs .Texture-Grid { background-position: 0 -6075px; } 
+.smallEffs .Texture-Hex { background-position: 0 -6120px; } 
+.smallEffs .Texture-Hot-Lava { background-position: 0 -6165px; } 
+.smallEffs .Texture-Iceberg { background-position: 0 -6210px; } 
+.smallEffs .Texture-Jigsaw { background-position: 0 -6255px; } 
+.smallEffs .Texture-Leaves { background-position: 0 -6300px; } 
+.smallEffs .Texture-Luxury { background-position: 0 -6345px; } 
+.smallEffs .Texture-Marble { background-position: 0 -6390px; } 
+.smallEffs .Texture-Metal { background-position: 0 -6435px; } 
+.smallEffs .Texture-Money { background-position: 0 -6480px; } 
+.smallEffs .Texture-Mud { background-position: 0 -6525px; } 
+.smallEffs .Texture-Paper { background-position: 0 -6570px; } 
+.smallEffs .Texture-Pool { background-position: 0 -6615px; } 
+.smallEffs .Texture-Mirror { background-position: 0 -6660px; } 
+.smallEffs .Texture-Rust { background-position: 0 -6705px; } 
+.smallEffs .Texture-Sky { background-position: 0 -6750px; } 
+.smallEffs .Texture-Slate { background-position: 0 -6795px; } 
+.smallEffs .Texture-Smog { background-position: 0 -6840px; } 
+.smallEffs .Texture-Space { background-position: 0 -6885px; } 
+.smallEffs .Texture-Steel { background-position: 0 -6930px; } 
+.smallEffs .Texture-Stripes { background-position: 0 -6975px; } 
+.smallEffs .Texture-Tiger { background-position: 0 -7020px; } 
+.smallEffs .Texture-Valentine { background-position: 0 -7065px; } 
+.smallEffs .Texture-Walnut { background-position: 0 -7110px; } 
+.smallEffs .Texture-Warning { background-position: 0 -7155px; } 
+.smallEffs .Texture-Water-Blue { background-position: 0 -7200px; } 
+.smallEffs .Texture-Water-Pink { background-position: 0 -7245px; } 
+.smallEffs .Texture-Wheat { background-position: 0 -7290px; } 
+.smallEffs .Texture-Waves { background-position: 0 -7335px; } 
+.smallEffs .Texture-Wood-A { background-position: 0 -7380px; } 
+.smallEffs .Texture-Wood-B { background-position: 0 -7425px; } 
+.smallEffs .Texture-Wood-C { background-position: 0 -7470px; } 
+.smallEffs .Texture-Wood-D { background-position: 0 -7515px; } 
+.smallEffs .Texture-Wood-E { background-position: 0 -7560px; } 
+.smallEffs .Texture-Wood-F { background-position: 0 -7605px; } 
+.smallEffs .Gradient-Black-H { background-position: 0 -7650px;} 
+.smallEffs .Gradient-Black-R { background-position: 0 -7695px;} 
+.smallEffs .Gradient-Black-V { background-position: 0 -7740px;} 
+.smallEffs .Gradient-Blue-H { background-position: 0 -7785px;} 
+.smallEffs .Gradient-Blue-R { background-position: 0 -7830px;} 
+.smallEffs .Gradient-Blue-V { background-position: 0 -7875px;} 
+.smallEffs .Gradient-Gold-H { background-position: 0 -7920px;} 
+.smallEffs .Gradient-Gold-R { background-position: 0 -7965px;} 
+.smallEffs .Gradient-Gold-V { background-position: 0 -8010px;} 
+.smallEffs .Gradient-Green-H { background-position: 0 -8055px;} 
+.smallEffs .Gradient-Green-R { background-position: 0 -8100px;} 
+.smallEffs .Gradient-Green-V { background-position: 0 -8145px;} 
+.smallEffs .Gradient-Orange-H { background-position: 0 -8190px;} 
+.smallEffs .Gradient-Orange-R { background-position: 0 -8235px;} 
+.smallEffs .Gradient-Orange-V { background-position: 0 -8280px;} 
+.smallEffs .Gradient-Pink-H { background-position: 0 -8325px;} 
+.smallEffs .Gradient-Pink-R { background-position: 0 -8370px;} 
+.smallEffs .Gradient-Pink-V { background-position: 0 -8415px;} 
+.smallEffs .Gradient-Purple-H { background-position: 0 -8460px;} 
+.smallEffs .Gradient-Purple-R { background-position: 0 -8505px;} 
+.smallEffs .Gradient-Purple-V { background-position: 0 -8550px;}
